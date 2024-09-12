@@ -1,0 +1,17 @@
+{
+  "id" : "e364bc6a-9279-42cc-94d8-98f9c03815ca",
+  "name" : "get_phones",
+  "request" : {
+    "urlPattern" : "/phones",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"phoneId\":\"b3e6191a-4853-4798-b47d-67c3ef365206\",\"phone\":\"+55 73 0000-1111\"},{\"phoneId\":\"dbdcf9ce-5836-41ee-8df5-2da894d96484\",\"phone\":\"+55 11 0000-1111\"}]",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "fixedDelayMilliseconds": 1000
+  },
+  "uuid" : "e364bc6a-9279-42cc-94d8-98f9c03815ca"
+}

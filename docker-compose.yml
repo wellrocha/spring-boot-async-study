@@ -1,0 +1,10 @@
+services:
+  wiremock:
+    container_name: wiremock-spring-boot-async-study
+    image: wiremock/wiremock:latest
+    volumes:
+      - ./wiremock/files:/home/wiremock/__files
+      - ./wiremock/mappings:/home/wiremock/mappings
+    command: "--global-response-templating --verbose"
+    ports:
+      - "8085:8080"

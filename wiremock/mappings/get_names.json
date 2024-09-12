@@ -1,0 +1,17 @@
+{
+  "id" : "7fa2cfe8-3f5d-4083-8859-8b69de2efa4e",
+  "name" : "get_names",
+  "request" : {
+    "urlPattern" : "/names",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"name\":\"Rodrigo\",\"phoneId\":\"b3e6191a-4853-4798-b47d-67c3ef365206\",\"addressId\":\"6cc48089-5afe-44bb-afba-40445f207aee\"},{\"name\":\"Wellington\",\"phoneId\":\"dbdcf9ce-5836-41ee-8df5-2da894d96484\",\"addressId\":\"2d85b7d7-ce64-4e2b-9aa0-66b60fd9a215\"}]",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "fixedDelayMilliseconds": 2000
+  },
+  "uuid" : "7fa2cfe8-3f5d-4083-8859-8b69de2efa4e"
+}
